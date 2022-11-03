@@ -28,3 +28,6 @@ const excelDocument = json2xls(gradeDocument);
 gradeDocument.push({CGPA: averageCgpa});
 fs.writeFileSync("Grades.xlsx", excelDocument, "binary");
 console.log(gradeDocument); 
+
+
+mongodb+srv://ParadiseKing:<password>@mongodbassignment.e6uimt7.mongodb.net/test
